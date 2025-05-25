@@ -1,0 +1,148 @@
+:root {
+    font-size: 14px;
+}
+
+html {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+body {
+    background-color: #000035;
+    font-family: "Ancizar Sans", Arial, sans-serif;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    background-color: #FFF;
+    border-radius: 25px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+main {
+    height: 85vh;
+}
+
+.title {
+    margin: 0;
+    padding: 0 0 0 25px;
+    color:  #000035;
+}
+
+.form-title {
+    border-radius: 12.5px;
+    border: 2px solid rgba(0,0,53,0.5);
+    background-color: rgba(0, 0, 53, 0.5);
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin: 0 0;
+}
+
+.internal-box {
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FFF;
+    border-radius: 25px;
+    background-color: #FFF;
+    justify-content: center;
+    width: 30rem;
+    height: 15rem;
+    margin: 10% 25%;
+    padding: 1.5rem;
+}
+
+form {
+    color: #000035;
+    margin: 1rem 10%;
+}
+
+.checker-form {
+    margin: 0 25% 0 25%
+}
+
+label {
+    font-size: 1.25rem;
+    position: relative;
+    margin: 0 12.5%;
+}
+
+input {
+    border: 2px solid rgba(161, 66, 245, 0.3);
+    border-radius: 12.5px;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 25% 0 25%;
+}
+
+button {
+    background-color: #a142f5;
+    color: #FFF;
+    font-weight: bold;
+    border: 2px solid #a142f5;
+    border-radius: 12.5px;
+    width: 100px;
+    height: 2rem;
+}
+
+.response-box, .reponse-box > p {
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: none;
+}
+
+@media (max-width: 691px) {
+    :root {
+        font-size: 12px;
+    }
+
+    .form-title {
+        font-size: 1.5rem;
+        margin: 0 0.5rem;
+        padding: 0 0.5rem;
+        text-align: center;
+    }
+
+    .form-container {
+        display: flex;
+        width: 22.5rem;
+        height: 12.5rem;
+    }
+
+    label {
+    font-size: 1rem;
+    margin: 0 2.5% 0 11%;
+    }
+
+    .checker-form {
+        margin: 0 12.5%;
+    }
+
+    .response-box, .reponse-box > p {
+    border-radius: 25px;
+    margin: 0.25rem 2rem 0;
+
+    padding-left: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: none;
+}
+}
